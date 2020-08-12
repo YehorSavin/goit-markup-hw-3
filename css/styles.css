@@ -1,0 +1,65 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #FFFFFF;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+ul{
+    list-style: none;
+}
+
+.site-nav .link{
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.button .primary{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px
+    display: inline-block;
+    text-align: center;
+}
+
+/* цвет основного текста #757575 */
+/* цвет вторичного текста #212121 */
+/* белый текст #FFFFFF */
+/* акцент #2196F3 */
