@@ -16,7 +16,9 @@ ul{
 
 .site-nav .link{
     color: var(--title-text-color);
+    text-decoration: none;
 }
+
 
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -34,7 +36,6 @@ ul{
 .button{
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
-
     font-size: 24px;
     padding: 12px 24px;
     display: inline-block;
@@ -45,7 +46,6 @@ ul{
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     border-color: transparent;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -57,6 +57,30 @@ ul{
     line-height: 60px;
     display: inline-block;
     text-align: center;
+}
+
+.link-mail{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #2196F3;
+}
+
+.link-tel{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+color: #757575;
 }
 
 /* цвет основного текста #757575 */
