@@ -145,6 +145,21 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 
+.section-function{
+    font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.link-team{
+    text-decoration: none;
+}
+
 /* цвет основного текста #757575 */
 /* цвет вторичного текста #212121 */
 /* белый текст #FFFFFF */
