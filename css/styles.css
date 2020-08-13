@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
 :root{
     --primary-text-color: #757575;
     --title-text-color: #212121;
@@ -12,6 +22,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 ul{
