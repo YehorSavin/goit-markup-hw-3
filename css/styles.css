@@ -65,21 +65,26 @@ letter-spacing: 0.02em;
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
     font-size: 24px;
-    padding: 12px 24px;
+    padding: 10px 32px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid transparent
 }
 
 .button .primary{
+    display: inline-block;
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
     border-color: transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    padding: 10px 32px;
 }
 
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 0;
     font-family: Roboto;
     font-weight: 900;
     font-size: 44px;
@@ -87,7 +92,6 @@ letter-spacing: 0.02em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
 }
 
 .link-mail{
@@ -163,12 +167,33 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-top: 0;
+margin-bottom: 10px;
 
 color: #212121;
 }
 
 .link-team{
     text-decoration: none;
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    text-align: center;
+}
+
+.function-items{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.function-img{
+    margin-top: 0;
+    margin-bottom: 55px;
 }
 
 /* цвет основного текста #757575 */
