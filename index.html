@@ -12,50 +12,46 @@
 
     <header>
         <div class="container">
-        <nav>
-            <a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a>
-            <ul class="site-nav list">
+        <nav class="main-nav">
+            <a href="/"><img src="./images/WebStudio.svg" class="logo" alt="Логотип"></a>
+            <ul class="site-nav">
                 <li><a href="index.html" class="link current">Студия</a></li>
                 <li><a href="portfolio.html" class="link">Портфолио</a></li>
                 <li><a href="#contacts" class="link">Контакты</a></li>
             </ul>
+            <ul class="site-address">
+                <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
+            </ul>
         </nav>
-        </div>
-        <div>
-        <address>
-        <ul class="site-nav list">
-            <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
-        </ul>
-        </address>
         </div>
     </header>
     <main>
         <div>
             <section class="hero">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
                 <a class="button primary" href="" target="_blank">Заказать услугу</a>
             </section>
         </div>
         <section class="section">
             <h2 hidden>Функции</h2>
-            <ul>
-                <li>
+            <ul class="function-list">
+                <li class="fnc-list">
                     <img src="./images/antenna.svg" class="function-img" alt="">
                     <h3 class="section-function">Внимание к деталям</h3>
                     <p class="function-items">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="fnc-list">
                     <img src="./images/clock.svg" class="function-img" alt="">
                     <h3 class="section-function">Пунктуальность</h3>
                     <p class="function-items">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="fnc-list">
                     <img src="./images/diagram.svg" class="function-img" alt="">
                     <h3 class="section-function">Планирование</h3>
                     <p class="function-items">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="fnc-list">
                     <img src="./images/astronaut.svg" class="function-img" alt="">    
                     <h3 class="section-function">Современные технологии</h3>
                     <p class="function-items">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
@@ -64,7 +60,7 @@
         </section>
         <section class="section">
             <h2 class="section-title">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="function-list">
                 <li>
                     <h3 class="whatwedo">Десктопные приложения</h3>
                     <img src="./images/img(1).jpg" alt="" width="370">
@@ -81,7 +77,7 @@
         </section>
         <section class="section">
             <h2 class="section-title">Наша команда</h2>
-            <ul>
+            <ul class="function-list">
                 <li>
                     <img src="./images/img01.jpg" alt="">
                     <h3 class="section-item">Николай Кучеренко</h3>
@@ -130,7 +126,7 @@
         </section>
         <section class="section">
             <h2 class="section-title">Постоянные клиенты</h2>
-            <ul>
+            <ul class="function-list">
                 <li><a href="" target="_blank"><img src="./images/logo1.svg" alt=""></a></li>
                 <li><a href="" target="_blank"><img src="./images/logo2.svg" alt=""></a></li>
                 <li><a href="" target="_blank"><img src="./images/logo3.svg" alt=""></a></li>
@@ -141,7 +137,7 @@
         </section>
     </main>
     <footer id="contacts">
-        <div>
+        <div class="function-list">
             <a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a>
             <address>
                 <ul> 
@@ -151,7 +147,7 @@
                 </ul>
             </address>
         </div>
-        <div>
+        <div class="function-list">
             <h3>присоединяйтесь</h3>
             <ul>
                 <li><a href="https://www.instagram.com/?hl=ru" target="_blank">Instgram</a></li>

@@ -11,20 +11,20 @@
 <body>
 
     <header>
-        <nav>
-            <a href="/"><img src="./images/WebStudio.svg" alt="Логотип"></a>
-            <ul class="site-nav list">
-                <li><a href="" target="_blank" class="link">Студия</a></li>
-                <li><a href="" target="_blank" class="link current">Портфолио</a></li>
-                <li><a href="" target="_blank" class="link">Контакты</a></li>
-            </ul>
-        </nav>
-            <address>
-                <ul class="site-nav list">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="/"><img src="./images/WebStudio.svg" class="logo" alt="Логотип"></a>
+                <ul class="site-nav">
+                    <li><a href="index.html" class="link">Студия</a></li>
+                    <li><a href="portfolio.html" class="link current">Портфолио</a></li>
+                    <li><a href="#contacts" class="link">Контакты</a></li>
+                </ul>
+                <ul class="site-address">
                     <li><a href="mailto:info@devstudio.com" class="link-mail">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111" class="link-tel">+38 096 111 11 11</a></li>
                 </ul>
-            </address>
+            </nav>
+            </div>
     </header>
     <main>
         <section>
@@ -36,65 +36,65 @@
                 <li><button type="button">Дизайн</button></li>
                 <li><button type="button">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li>
+        <div class="test-container">
+            <ul class="flex-container">
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/tehnokrk.jpg" alt="">
                     <h2 class="heading">Технокряк</h2>
-                    <p class="paragraph-pf">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                     <p class="paragraph-pf">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/neworlean.jpg" alt="">
                     <h2 class="heading">Постер New Orlean vs Golden Star</h2>
                     <p class="paragraph-pf">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/seafood.jpg" alt="">
                     <h2 class="heading">Ресторан Seafood</h2>
                     <p class="paragraph-pf">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/prime.jpg" alt="">
                     <h2 class="heading">Проект Prime</h2>
                     <p class="paragraph-pf">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/boxes.jpg" alt="">
                     <h2 class="heading">Проект Boxes</h2>
                     <p class="paragraph-pf">Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/inspiration.jpg" alt="">
                     <h2 class="heading">Inspiration has no Borders</h2>
                     <p class="paragraph-pf">Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/LE.jpg" alt="">
                     <h2 class="heading">Издание Limited Edition</h2>
                     <p class="paragraph-pf">Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/lab.jpg" alt="">
                     <h2 class="heading">Проект LAB</h2>
                     <p class="paragraph-pf">Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="link-pf">
                     <img src="./images/business.jpg" alt="">
                     <h2 class="heading">Growing Business</h2>
@@ -102,6 +102,7 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
     <footer>
